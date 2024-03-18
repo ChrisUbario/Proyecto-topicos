@@ -1,6 +1,7 @@
 //MAIN
 <script setup>
 import Session1 from './components/Session1.vue'
+import Session2 from './components/Session2.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Session1 from './components/Session1.vue'
   </div>
   <main>
     <Session1 />
+    <Session2/>
   </main>
 
 </template>
@@ -48,3 +50,4 @@ header {
   }
 }
 </style>
+
