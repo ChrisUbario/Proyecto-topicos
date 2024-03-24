@@ -1,29 +1,12 @@
 <template>
     <div>
       <button type="submit" class="login-button">Iniciar Sesión</button>
-      <a href="/register" class="register-button">Registrarse</a>
-      <Register v-if="showRegisterForm" /> 
+      <button>Registrarse</button>
     </div>
   </template>
   
   <script>
-  import Register from './Register.vue'; 
   
-  export default {
-    components: {
-      Register 
-    },
-    data() {
-      return {
-        showRegisterForm: false 
-      };
-    },
-    methods: {
-      goToRegisterPage() {
-        this.showRegisterForm = true;
-      }
-    }
-  }
 
   </script>
   

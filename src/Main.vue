@@ -1,15 +1,20 @@
 <script setup>
 import Session1 from './components/Session1.vue'
 import Session2 from './components/Session2.vue'
+import Register from './components/Register.vue'
+import Search from './components/Search.vue'
 </script>
 
-<template>
+<template class="app-container">
+  <header class="app-container"><Search/></header>
   <div class="app-contaniner">
-    <img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
-  </div>
-  <main>
-    <Session1 />
+    <!--<img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
+  --></div>
+  <main class="app-container">
+    <!--<Session1 />
     <Session2/>
+    <Register/>-->
+    
   </main>
 
 </template>
