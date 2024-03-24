@@ -1,4 +1,3 @@
-//MAIN
 <script setup>
 import Session1 from './components/Session1.vue'
 import Session2 from './components/Session2.vue'
@@ -50,4 +49,3 @@ header {
   }
 }
 </style>
-

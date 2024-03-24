@@ -1,5 +1,3 @@
-//LOGIN
-
 <template>
   <form class="login-form">
     <div class="form-group">
