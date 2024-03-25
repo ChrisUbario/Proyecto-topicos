@@ -16,7 +16,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 20px;
+  flex: auto;
 }
 
 .logo {
@@ -24,7 +25,7 @@
 }
 
 .search-box {
-  flex-grow: 1; /* La barra de búsqueda ocupa el espacio restante */
+  flex-grow: 1; 
   margin: 0 2vw; /* Márgenes horizontales del 2% del ancho de la pantalla */
 }
 
