@@ -3,20 +3,19 @@ import Session1 from './Session1.vue'
 </script>
 
 <template>
-    <form class="register-form">
-      <div class="form-group">
-        <label for="name">Nombre de la Cuenta:</label>
-        <input type="text" id="name" placeholder="Ingrese el nombre de la cuenta" required>
-      </div>
-      <Session1/>
-      <LoginForm />
-      <div class="form-group">
-        <label for="confirm-password">Confirmar Contraseña:</label>
-        <input type="password" id="confirm-password" placeholder="Confirme su contraseña" required>
-      </div>
-      <button type="submit" class="register-button">Registrar Cuenta</button>
-    </form>
-  </template>
+  <form class="register-form">
+    <div class="form-group">
+      <label for="name">Nombre de la Cuenta:</label>
+      <input type="text" id="name" placeholder="Ingrese el nombre de la cuenta" required>
+    </div>
+    <Session1 />
+    <div class="form-group">
+      <label for="confirm-password">Confirmar Contraseña:</label>
+      <input type="password" id="confirm-password" placeholder="Confirme su contraseña" required>
+    </div>
+    <button type="submit" class="register-button">Registrar Cuenta</button>
+  </form>
+</template>
 
 <style scoped>
 .register-form {
@@ -39,9 +38,10 @@ label {
   color: #fff;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+/* Estilos específicos para los inputs del formulario de registro */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #4CAF50;

@@ -6,14 +6,15 @@ import Search from './components/Search.vue'
 </script>
 
 <template class="app-container">
-  <header class="app-container"><Search/></header>
+  <header><Search/></header>
   <div class="app-contaniner">
-    <!--<img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
-  --></div>
+    <!-- <img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
+  -->
+  </div>
   <main class="app-container">
-    <!--<Session1 />
+    <!-- <Session1 />
     <Session2/>
-    <Register/>-->
+    <Register/> -->
     
   </main>
 
@@ -29,7 +30,16 @@ import Search from './components/Search.vue'
 
 header {
   line-height: 1.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 
 .logo {
   display: block;
