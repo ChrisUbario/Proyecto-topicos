@@ -16,6 +16,8 @@
   .container {
     display: flex;
     flex-direction: column;
+    width: 50px;
+    flex: auto;
   }
 
   .sidebar {
@@ -26,6 +28,9 @@
     width: 200px; /* Ancho de la barra lateral */
     background-color:black; /* Color de fondo */
     color: #fff; /* Color del texto */
+    border-right: 2px solid #4CAF50;
+    padding-right: 10px;
+    flex: auto;
   }
   
   .navigation-list {

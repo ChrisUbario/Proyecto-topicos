@@ -4,18 +4,26 @@ import Session2 from './components/Session2.vue'
 import Register from './components/Register.vue'
 import Search from './components/Search.vue'
 import Sidebar from './components/Sidebar.vue'
+import Sidebar2 from './components/Sidebar2.vue'
 import Tasks from './components/Tasks.vue'
+import Tab from './components/Tab.vue'
+import Content from './components/Content.vue'
+import Bar from './components/Bar.vue'
 </script>
 
 <template class="app-container">
   <header><Search/></header>
   <div class="app-contaniner">
     <Sidebar/>
+    <Sidebar2/>
+    <Tab/>
+    <Content/>
+    <Bar/>
     <!-- <img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
   -->
   </div>
   <main class="app-container">
-    <Tasks/>
+    <!-- <Tasks/> -->
     <!-- <Session1 />
     <Session2/>
     <Register/> -->
