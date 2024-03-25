@@ -3,11 +3,13 @@ import Session1 from './components/Session1.vue'
 import Session2 from './components/Session2.vue'
 import Register from './components/Register.vue'
 import Search from './components/Search.vue'
+import Sidebar from './components/Sidebar.vue'
 </script>
 
 <template class="app-container">
   <header><Search/></header>
   <div class="app-contaniner">
+    <Sidebar/>
     <!-- <img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
   -->
   </div>

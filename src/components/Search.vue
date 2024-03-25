@@ -21,7 +21,8 @@
 }
 
 .logo {
-  height: 10vh; /* El logo ocupa el 10% del alto de la pantalla */
+  height: 13vh; /* El logo ocupa el 10% del alto de la pantalla */
+  margin-right: 10%;
 }
 
 .search-box {
