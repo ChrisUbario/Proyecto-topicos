@@ -1,7 +1,8 @@
 <template>
   <div>
-    <button type="submit" class="login-button">Iniciar Sesión</button>
-    <button class="register-button">Registrarse</button>
+    <button type="submit" class="login-button"> <a href="home"></a>Iniciar Sesión</button>
+    <button class="register-button">>Registrarse</button>
+    
   </div>
 </template>
 
@@ -30,3 +31,4 @@
   background-color: #45a049;
 }
 </style>
+

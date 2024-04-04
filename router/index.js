@@ -1,9 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../components/Session1.vue'
+import Session0 from '../components/Session1.vue'
+import Home from './Home.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/session',
+    name: 'sesion',
+    component: Session0
+  },
+
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   }
