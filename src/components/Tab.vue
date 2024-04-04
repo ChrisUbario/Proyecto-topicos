@@ -13,7 +13,7 @@
   .menu-container {
     border: 1px solid #4CAF50;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     position: fixed;
     top: 150px;
     left: 620px;
@@ -27,6 +27,7 @@
     border-right: 2px solid #4CAF50;
     padding-right: 50px;
     flex: auto;
+    width: 52%;
   }
   
   .menu {
@@ -38,7 +39,7 @@
   }
   
   .menu li {
-    margin-right: 200px;
+    margin-right: 90px;
   }
   
   .menu li:last-child {
