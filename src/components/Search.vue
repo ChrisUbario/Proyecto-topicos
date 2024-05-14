@@ -21,7 +21,7 @@
 }
 
 .logo {
-  height: 13vh; /* El logo ocupa el 10% del alto de la pantalla */
+  height: 17vh; /* El logo ocupa el 10% del alto de la pantalla */
   margin-right: 10%;
 }
 

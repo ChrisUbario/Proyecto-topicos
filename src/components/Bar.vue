@@ -11,12 +11,12 @@
     border-radius: 5px;
     margin: 10px;
     position: fixed;
-    bottom: 150px;
+    bottom: 30px;
     left: 620px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex; /* Para que los elementos estén en línea */
     align-items: center; /* Para alinear verticalmente */
-    width: 60%; /* Ancho relativo */
+    width: 52%; /* Ancho relativo */
     padding: 20px;
   }
   

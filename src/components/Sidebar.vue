@@ -52,6 +52,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif; /* Fuente del texto */
     font-size: 16px; /* Tamaño de fuente */
     cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border-radius: 10px;
     transition: background-color 0.3s; /* Transición de color al pasar el ratón */
   }
   
