@@ -24,7 +24,7 @@
     left: 290px; /* Posición en el lateral derecho */
     top: 170px;
     height: 100%;
-    width: 300px;
+    width: 25%;
     background-color: black;
     color: #fff;
     border-right: 2px solid #4CAF50;

@@ -25,7 +25,7 @@
     left: 70px; /* Colocarlo en el lateral izquierdo */
     top: 170px;
     height: 100%; /* Altura completa */
-    width: 200px; /* Ancho de la barra lateral */
+    width: 10%; /* Ancho de la barra lateral */
     background-color:black; /* Color de fondo */
     color: #fff; /* Color del texto */
     border-right: 2px solid #4CAF50;

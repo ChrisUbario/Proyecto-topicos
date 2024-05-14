@@ -1,41 +1,34 @@
-<script setup>
-import Session1 from './components/Session1.vue'
-import Session2 from './components/Session2.vue'
-import Register from './components/Register.vue'
-import Search from './components/Search.vue'
-import Sidebar from './components/Sidebar.vue'
-import Sidebar2 from './components/Sidebar2.vue'
-import Tasks from './components/Tasks.vue'
-import Tab from './components/Tab.vue'
-import Content from './components/Content.vue'
-import Bar from './components/Bar.vue'
-</script>
+<template>
+  <div id="app" class="app-container">
+    <header>
+      <!-- Contenido del encabezado -->
+    </header>
 
-<template class="app-container">
-  <header><Search/></header>
-  <div class="app-contaniner">
-    <Sidebar/>
-    <Sidebar2/>
-    <Tab/>
-    <Content/>
-    <Bar/>
-    <!-- <img alt="Nuevo logo" class="logo" src="./assets/logo.jpg" width="445" height="300" />
-  -->
+    <main>
+      <router-view/>
+    </main>
+
+    <footer>
+      <!-- Contenido del pie de página -->
+    </footer>
   </div>
-  <main class="app-container">
-    <!-- <Tasks/> -->
-    <!-- <Session1 />
-    <Session2/>
-    <Register/> -->
-    
-  </main>
-
 </template>
 
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+// Navegar a la vista de inicio de sesión al cargar la aplicación
+if (router) {
+  router.push({ name: 'Login' })
+}
+</script>
+
 <style scoped>
-.app-container{
-  background-color: black;
-  color: black;
+.app-container {
+  background-color: rgb(0, 0, 0); /* Cambiado a blanco para que el contenido sea visible */
+  color: black; /* Cambiado a negro para que el contenido sea visible */
   padding: 20px;
   place-items: center;
 }
@@ -51,7 +44,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 
 .logo {
   display: block;

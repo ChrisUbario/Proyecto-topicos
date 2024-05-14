@@ -13,9 +13,19 @@ import Session1 from './Session1.vue'
       <label for="confirm-password">Confirmar Contraseña:</label>
       <input type="password" id="confirm-password" placeholder="Confirme su contraseña" required>
     </div>
-    <button type="submit" class="register-button">Registrar Cuenta</button>
+    <button type="submit" class="register-button" @click="goToMenu">Registrar Cuenta</button>
   </form>
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goToMenu = () => {
+  router.push({ name: 'Menu' }) // Navega a la vista del menú principal
+}
+</script>
 
 <style scoped>
 .register-form {

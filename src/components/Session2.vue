@@ -1,9 +1,23 @@
 <template>
   <div>
-    <button type="submit" class="login-button">Iniciar Sesión</button>
-    <button class="register-button">Registrarse</button>
+    <button type="submit" class="login-button" @click="goToMenu">Iniciar Sesión</button>
+    <button class="register-button" @click="goToRegister">Registrarse</button>
   </div>
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goToMenu = () => {
+  router.push({ name: 'Menu' })
+}
+
+const goToRegister = () => {
+  router.push({ name: 'Register' })
+}
+</script>
 
 <style scoped>
 .login-button, .register-button {
